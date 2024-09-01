@@ -1,0 +1,22 @@
+{
+    "client": {
+        "token": "" //entre aspas coloque o token do bot gerado no discord dev
+    },
+    "embeds_color": {
+        "embed_primary": "##ff0000",
+        "embed_invisible": "#2f3136",
+        "embed_success": "#00ff00",
+        "embed_error": "#ff0000"
+    },
+    "ticket": {
+        "category_id": "",  //entre aspas coloque o id da categoria que receberá os tickets
+        "category_call_id": "", //entre aspas coloque o id da categoria que criará as calls
+        "support_role": "", //entre aspas coloque o id dos cargos que receberá menção e as perms
+        "channel_logs": "" //entre aspas coloque o id do canal que receberá as logs
+    },
+    "sales": {
+        "pix": "", //entre aspas coloque o pix
+        "qrcode": "", //entre aspas coloque o qrcode para pagamento, tem que ser imagem em URL
+        "name": "" //entre aspas coloque o nome do destinatário do pix
+    }
+}
